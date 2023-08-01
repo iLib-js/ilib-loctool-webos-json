@@ -273,7 +273,7 @@ JsonFile.prototype._addnewResource = function(text, key, locale) {
 JsonFile.prototype._getBaseTranslation = function(locale, translations, tester) {
     if (!locale) return;
     var langDefaultLocale = Utils.getBaseLocale(locale);
-    var baseTranslation;
+    var baseTranslation = tester.reskey;
     if (langDefaultLocale === locale) {
         langDefaultLocale = 'en-US'; // language default locale need to compare with root data
     }
