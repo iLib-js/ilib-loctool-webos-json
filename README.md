@@ -7,7 +7,7 @@ This plugin is optimized for webOS platform
 ## Release Notes
 v1.1.0
 * Support the pseudo localization.
-* Fixed a issue case where a baseTranslation is undefined.
+* Updated to return a key value when a baseTranslation is undefined
 
 v1.0.0
 * Implement for webOS json file (appinfo.json and qcardinfo.json) of localization.  
